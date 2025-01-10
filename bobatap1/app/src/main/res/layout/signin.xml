@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@drawable/day">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signintitle"
+            android:text="Welcome"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorButton2"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/textes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="55dp"
+            android:text="Sign in to continue"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_below="@id/signintitle"
+            android:contentDescription="" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emails"
+            android:layout_below="@id/textes"
+            android:hint="Email"
+            android:textColorHint="@color/alwayswhite"
+            android:textColor="@color/alwayswhite"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:padding="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="#30ffffff"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/emailpic"
+            android:drawablePadding="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass"
+            android:layout_below="@id/emails"
+            android:hint="Password"
+            android:textColorHint="@color/alwayswhite"
+            android:textColor="@color/alwayswhite"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:padding="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="#30ffffff"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/baseline_key_24"
+            android:drawablePadding="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:id="@+id/signinbutton"
+            android:text="Sign In"
+            android:layout_below="@id/pass"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/alwayswhite"
+            android:gravity="center"
+            android:backgroundTint="@color/colorButton2"
+            app:cornerRadius="@dimen/_10sdp" />
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:id="@+id/googleSignInBtn"
+            android:text="Google Sign In"
+
+            android:layout_below="@id/signinbutton"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:textColor="@color/alwayswhite"
+            android:backgroundTint="@color/colorButton2"
+            app:cornerRadius="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgotpass"
+            android:text="Forgot password?"
+            android:textColor="@color/alwayswhite"
+            android:layout_below="@id/signinbutton"
+            android:gravity="end"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="56dp"
+            android:textSize="17dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="OR"
+            android:textColor="@color/alwayswhite"
+            android:layout_below="@id/signinbutton"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+
+            android:textSize="17dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="250dp"
+            android:id="@+id/already"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="@color/colorButton2"
+            android:paddingHorizontal="12dp"
+
+            android:gravity="center"
+            android:text="Create Account / Sign Up"
+            android:layout_below="@id/signinbutton"
+            android:layout_marginBottom="26dp"
+            android:textStyle="bold"
+
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/emails"
+            android:visibility="gone"
+            android:layout_above="@id/already" />
+    </RelativeLayout>
+</ScrollView>

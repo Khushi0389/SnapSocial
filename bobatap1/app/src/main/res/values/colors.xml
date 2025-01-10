@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#141414</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#FF000000</color>
+    <color name="colorToolbar">#EFEBEB</color>
+    <color name="colorButton">#ED7B3D</color>
+    <color name="TextDark">#262627</color>
+    <color name="blue">#1a237e</color>
+    <color name="colorGreenLight">#00952E</color>
+    <color name="colorGreenMid">#00842E</color>
+    <color name="colorGreyLight">#E6E6E6</color>
+    <color name="colorGreyDark">#7B7B7B</color>
+    <color name="colorLightBlue">#FAFAFC</color>
+  <color name="colorGreen">#004827</color>
+    <color name="darkBackground">#333333</color>
+    <color name="lightGray">#C8C8C8</color>
+    <color name="gray">#808080</color>
+    <color name="colorButton2">#454EAE</color>
+    <color name="alwayswhite">#ffffff</color>
+
+</resources>

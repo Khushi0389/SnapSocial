@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:id="@+id/FragmentHome_toolbar"
+        android:background="@color/colorToolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:elevation="6dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/linearlayout"
+            android:weightSum="100">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/nodp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:padding="5dp"
+                app:civ_border_color="@color/TextDark"
+                app:civ_border_width="2dp"
+                app:tint="@color/TextDark"
+                android:id="@+id/profileImg"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:id="@+id/bobas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="BobaTap"
+                android:textColor="@color/TextDark"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+            <ImageView
+                android:id="@+id/bobaicon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bobatap"
+                android:layout_toRightOf="@+id/bobas"
+                android:layout_marginTop="10dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_tips_and_updates_24"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="7dp"
+                android:rotation="-35"
+                app:tint="@color/TextDark"
+                android:id="@+id/FragmentHome_msg"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FragmentHome_stories_bar"
+        android:layout_below="@+id/FragmentHome_toolbar">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dailyTip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/FragmentHome_stories_bar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text=""
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:textColor="@color/TextDark" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/FragmentHome_story_recyclerView"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FragmentHome_postListView"
+        android:layout_below="@+id/FragmentHome_stories_bar"/>
+
+
+
+
+
+</RelativeLayout>

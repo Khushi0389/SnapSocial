@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group android:checkableBehavior="single">
+
+       <!--  <item android:id="@+id/profile"
+             android:title="Profile"
+             android:icon="@drawable/baseline_person"/>
+           Sidebar navigation (Navigation Drawer)  <item android:id="@+id/search"
+                android:title="Search"
+                android:icon="@drawable/baseline_search_"/>
+            <item android:id="@+id/post"
+                android:title="Post"
+                android:icon="@drawable/baseline_add_"/>
+            <item android:id="@+id/notification"
+                android:title="Notification"
+                android:icon="@drawable/baseline_notificationss"/>-->
+   </group>
+    <item android:id="@+id/editprf"
+        android:title="Edit Profile"
+        android:icon="@drawable/baseline_edit_24"
+        />
+    <item android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@drawable/baseline_settings_24"/>
+    <item android:id="@+id/aboutapps"
+        android:title="About the App"
+        android:icon="@drawable/baseline_info_24"/>
+
+    <!-- <item android:id="@+id/logout"
+         android:title="Logout"
+         android:icon="@drawable/baseline_logout"/>-->
+ </menu>

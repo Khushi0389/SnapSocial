@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BobaTap</string>
+    <string name="default_web_client_id">109738105451-9588j4rs0ajeiqpl9uj0kag0rhd2kg6h.apps.googleusercontent.com</string>
+       <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="posts">Posts</string>
+    <string name="add_description">Add description</string>
+    <string name="fans">Fans</string>
+
+</resources>

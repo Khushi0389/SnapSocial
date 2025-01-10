@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "109738105451",
+    "project_id": "bobatap1",
+    "storage_bucket": "bobatap1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109738105451:android:6a838069522079b3a56f2e",
+        "android_client_info": {
+          "package_name": "com.example.bobatap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109738105451-3mgd0qjbh8dpqmkbv1kq6g82st8ikl2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bobatap",
+            "certificate_hash": "9463a2b0f04236c76f9cf344721e63b3187e8590"
+          }
+        },
+        {
+          "client_id": "109738105451-9588j4rs0ajeiqpl9uj0kag0rhd2kg6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXMGPSGB2kigSF27ypuXn3MFsY8uQc3EY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109738105451-9588j4rs0ajeiqpl9uj0kag0rhd2kg6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

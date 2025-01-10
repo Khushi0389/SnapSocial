@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyPhone"
+    android:padding="15dp"
+    android:background="@drawable/day">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter OTP"
+            android:textSize="45sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/OTP"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:backgroundTint="@color/colorToolbar"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="OTP"
+            android:background="@drawable/btn_shape_2"
+            android:layout_marginTop="25dp"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/Verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/Rwhite"
+            android:text="Verify"
+            android:textSize="18sp"/>
+
+
+        <Button
+            android:id="@+id/Resendotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/btnred"
+            android:text="Resend"
+            android:textColor="@color/Rwhite"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkgray"
+            android:textSize="16dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
