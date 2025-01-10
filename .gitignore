@@ -1,0 +1,21 @@
+# Gradle files
+*.iml
+.gradle/
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/modules.xml
+/.idea/.name
+/build/
+/captures/
+.externalNativeBuild/
+
+# Android Studio specific files
+.idea/
+*.ipr
+*.iws
+*.idea/
+*.bak
+
+# Sensitive files
+/app/src/main/res/values/
