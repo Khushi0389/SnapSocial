@@ -18,4 +18,5 @@
 *.bak
 
 # Sensitive files
-/app/src/main/res/values/
+/app/google-services.json
+
