@@ -1,102 +1,119 @@
-# <img align="left" alt="codeSTACKr | Instagram" width="50px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />Instagram-clone
+# BobaTap - A Comprehensive Social Media App
+
+## Overview
+BobaTap is an innovative social media application designed to enhance user engagement and personal development. Built for Android devices using Java in Android Studio, it combines traditional social networking features with a unique "Daily Tip" functionality, offering users a daily dose of wisdom and practical advice. The app fosters social interaction, creativity, and self-improvement in a user-friendly environment.
+
+---
 
 ## Installation Guide
-1. Clone repository
-2. Open the Project in your android studio
-3. IMPORTANT:- Change the [PackageName](https://stackoverflow.com/questions/16804093/android-studio-rename-package)
-4. Create Firebase [project](https://console.firebase.google.com/).
-5. [Connect](https://youtu.be/ggMPCD9hlaQ) Firebase with Android Studio.
-6. Download the file google-service.json from firebase project setting and import into your project
-7. IMPORTANT FOR NOTIFICATION:- Copy Server key from Firebase/Project Setting/cloudmessaging/ and paste it in APIService.java class
 
-## Connect with me:
-[<img align="left" alt="androrealm | YouTube" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://rb.gy/r4yzzi)
-[<img align="left" alt="dshakir52 | Instagram" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />](https://www.instagram.com/dshakir52/).
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   ```
 
-## Features
-1. Login, Signup,Logout,Forgot password (with email verification)
-2. Quick Login like in Facebook and Instagram (this means app remembers that you had logged in).
-3. Follow, Unfollow, Profile views.
-4. Post photo posts from camera or gallery
-   * Like posts
-      * View all likes on a post
-   * Comment on posts
-        * View all comments on a post
-5. Edit your profile (username, Bio, social links,Name).
-6. Conversation with your freinds.
-7. Message emoji, Text.
-8. Get Notifications.
-9. Search for users
-    * Search based on usernames
-10. Post Story from camera or gallery
-      * Views
-        * View all Views on a Story
-      * Delete
-        * Delete Story
-11. Offline Capability
+2. **Open the Project in Android Studio:**
+   - Ensure Android Studio is installed on your system.
+
+3. **Change the Package Name:**
+   - Follow the instructions [here](https://stackoverflow.com/questions/16804093/android-studio-rename-package).
+
+4. **Set Up Firebase:**
+   - Create a Firebase project [here](https://console.firebase.google.com/).
+   - Connect your project to Firebase using this [guide](https://youtu.be/ggMPCD9hlaQ).
+
+5. **Add Firebase Configuration File:**
+   - Download the `google-services.json` file from your Firebase project settings.
+   - Place it in the `app/` directory of your project.
+
+6. **Enable Notifications:**
+   - Copy the Server Key from `Firebase > Project Settings > Cloud Messaging`.
+   - Paste it into the `APIService.java` file.
+
+---
+
+## Key Features
+
+### Core Social Features
+- **User Profiles:** Create and edit profiles with profile pictures, bios, and personal details.
+- **Photo Sharing:** Upload photos from the camera or gallery, add captions, and tag posts.
+- **Likes & Comments:** Interact with posts through likes and comments.
+- **Stories:** Share time-limited stories with views tracking.
+
+### Unique Functionalities
+- **Daily Tips:** Receive daily motivational messages or advice to inspire personal growth.
+- **Search:** Discover users by username.
+- **Real-Time Notifications:** Stay updated on likes, comments, followers, and daily tips.
+
+### Accessibility
+- **Light and Dark Modes:** Choose between light and dark themes for a comfortable user experience.
+- **Offline Capability:** Basic functionalities available offline.
+
+---
 
 ## Screenshots
-#### Registration | Login
-| ![Registration](registration.gif) | 
-  <img src="https://user-images.githubusercontent.com/60619133/95440450-94aba580-0976-11eb-9794-254d7c643c22.jpg" alt="feed example" width = "220"> |
+### Registration | Login
+| Registration Page | Login Page |
+|-------------------|------------|
+| ![Registration](registration.gif) | ![Login](login.jpg) |
 
-#### Profile | Edit Profile | Account Setting
-| ![profile](profile.gif)|<img src="https://user-images.githubusercontent.com/60619133/95450074-5799e000-0983-11eb-94be-1514099a071d.jpg" alt="feed example" width = "220">|  <img src="https://user-images.githubusercontent.com/60619133/95440441-937a7880-0976-11eb-8a1f-cb445364fd75.png" alt="feed example" width = "220">
-|<img src="https://user-images.githubusercontent.com/60619133/95440444-94130f00-0976-11eb-81c2-2c5bb0fcf963.jpg" alt="feed example" width = "220">|
+### Profile | Edit Profile
+| Profile Page | Edit Profile Page |
+|--------------|-------------------|
+| ![Profile](profile.jpg) | ![Edit Profile](edit_profile.jpg) |
 
-#### Search User | User Profile | User Post
-|<img src="https://user-images.githubusercontent.com/60619133/95440437-92e1e200-0976-11eb-9ab8-56732f531628.jpg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/60619133/95440435-92494b80-0976-11eb-91a1-726b032f0c11.jpg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/60619133/95440394-878eb680-0976-11eb-8a37-f2e0c2899778.jpg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/60619133/95440415-8e1d2e00-0976-11eb-8a58-34a745e83731.jpg" alt="feed example" width = "220">|
+### Home Feed | Daily Tips
+| Home Feed | Daily Tips |
+|-----------|------------|
+| ![Home Feed](home_feed.jpg) | ![Daily Tips](daily_tips.jpg) |
 
+---
 
-#### Home feed | Seen/Unseen Story
-|  <img src="https://user-images.githubusercontent.com/60619133/95440424-907f8800-0976-11eb-9ead-b455529884f5.jpg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/60619133/95440399-89587a00-0976-11eb-8e6f-ac27f8528b2e.jpg" alt="feed example" width = "220">|
+## Technology Stack
 
-#### Comment | Post Photo | Notification Panel
-|![Comment](comment.gif) |<img src="https://user-images.githubusercontent.com/60619133/95440445-94aba580-0976-11eb-9bab-c4fb3b66c915.jpg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/60619133/95440403-8b223d80-0976-11eb-86ee-5b395df5009e.jpg" alt="feed example" width = "220">
+### Languages
+- **Java**
 
-#### Conversation | Push Notification
-|<img src="https://user-images.githubusercontent.com/60619133/95440411-8d849780-0976-11eb-8ca7-b82a6a0632e3.jpg" alt="feed example" width = "220">|<img src="https://user-images.githubusercontent.com/60619133/95440431-91181e80-0976-11eb-90c1-c3e157d294c0.jpg" alt="feed example" width = "220">|
+### Tools
+- **Android Studio**
 
-#### Firebase Database
-<img src="https://user-images.githubusercontent.com/60619133/95457661-d5171d80-098e-11eb-847c-ac7c99e96fc1.png" alt="feed example" width = "220">
+### Database
+- **Firebase Realtime Database**
+  - Stores user data, posts, comments, and notifications.
 
-#### Firebase Storage
-<img src="https://user-images.githubusercontent.com/60619133/95457664-d6484a80-098e-11eb-9f70-2e5f07792320.png" alt="feed example" width = "1000">
+### Modules and Libraries
+- **[Retrofit](https://github.com/square/retrofit):** For API requests.
+- **[Glide](https://github.com/bumptech/glide):** For image loading and caching.
+- **[StoriesProgressView](https://github.com/shts/StoriesProgressView):** For story animations.
+- **[Circle Image View](https://github.com/hdodenhof/CircleImageView):** For circular profile images.
+- **[Image Cropper](https://github.com/ArthurHub/Android-Image-Cropper):** For photo cropping.
 
-## Technology Used
-* Android Studio
-* Firebase
-
-## Language Used
-* Java
-
-## Module used
-* [Cardview](https://developer.android.com/jetpack/androidx/releases/cardview)
-* [Retrofit](https://github.com/square/retrofit)
-* [Image Croper](https://github.com/ArthurHub/Android-Image-Cropper)
-* [StoriesProgressView](https://github.com/shts/StoriesProgressView)
-* [Glide](https://github.com/bumptech/glide)
-* [Country Code Picker](https://github.com/hbb20/CountryCodePickerProject)
-* [Universal image loader](https://github.com/nostra13/Android-Universal-Image-Loader)
-* [Circle Image View](https://github.com/hdodenhof/CircleImageView)
-
-
-
-
-## Copyright claims
-Many images used in the project belong to their respective creators/authors. No claim by me & those who use this project!!
+---
 
 ## How to Contribute
-Show your support by 🌟 the project!!
 
-* Fork the the project
-* Create your feature branch (git checkout -b my-new-feature)
-* Make required changes and commit (git commit -am 'Add some feature')
-* Push to the branch (git push origin my-new-feature)
-* Create new Pull Request
+1. **Fork the Repository:**
+   ```bash
+   git fork <repository-url>
+   ```
 
-Feel free to contribute!
+2. **Create a New Branch:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
+3. **Commit Changes:**
+   ```bash
+   git commit -m "Added your-feature-name"
+   ```
 
-## License
-InstagramClone is available under the [MIT License](LICENSE), see LICENSE for more infomation.
+4. **Push to GitHub:**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. **Create a Pull Request:**
+   - Submit a pull request for review.
+
+---
+
