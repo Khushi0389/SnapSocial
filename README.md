@@ -1,7 +1,7 @@
-# BobaTap - A Comprehensive Social Media App
+# SnapSocial - A Comprehensive Social Media App
 
 ## Overview
-BobaTap is an innovative social media application designed to enhance user engagement and personal development. Built for Android devices using Java in Android Studio, it combines traditional social networking features with a unique "Daily Tip" functionality, offering users a daily dose of wisdom and practical advice. The app fosters social interaction, creativity, and self-improvement in a user-friendly environment.
+SnapSocial is an innovative social media application designed to enhance user engagement and personal development. Built for Android devices using Java in Android Studio, it combines traditional social networking features with a unique "Daily Tip" functionality, offering users a daily dose of wisdom and practical advice. The app fosters social interaction, creativity, and self-improvement in a user-friendly environment.
 
 ---
 
