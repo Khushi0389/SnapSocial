@@ -65,7 +65,7 @@ SnapSocial is an innovative social media application designed to enhance user en
 ### Home Feed
 | Home Feed |
 |-----------|
-| ![Home Feed](home_feed.jpg) |
+| ![Home Feed](home_feed.png) |
 
 ---
 
