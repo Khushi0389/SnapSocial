@@ -55,17 +55,17 @@ SnapSocial is an innovative social media application designed to enhance user en
 ### Registration | Login
 | Registration Page | Login Page |
 |-------------------|------------|
-| ![Registration](registration.gif) | ![Login](login.jpg) |
+| ![Registration](registration.png) | ![Login](login.png) |
 
 ### Profile | Edit Profile
 | Profile Page | Edit Profile Page |
 |--------------|-------------------|
-| ![Profile](profile.jpg) | ![Edit Profile](edit_profile.jpg) |
+| ![Profile](profile.png) | ![Edit Profile](edit_profile.png) |
 
-### Home Feed | Daily Tips
-| Home Feed | Daily Tips |
-|-----------|------------|
-| ![Home Feed](home_feed.jpg) | ![Daily Tips](daily_tips.jpg) |
+### Home Feed
+| Home Feed |
+|-----------|
+| ![Home Feed](home.jpg) |
 
 ---
 
